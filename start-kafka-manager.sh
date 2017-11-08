@@ -1,0 +1,1 @@
+docker run -it --rm  -p 9000:9000 -e ZK_HOSTS="192.168.99.100:2181" -e APPLICATION_SECRET=letmein sheepkiller/kafka-manager
